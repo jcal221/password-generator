@@ -1,0 +1,445 @@
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: cover;
+    height: auto;
+    color: white;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+  }
+  
+  #main-div {
+    display: block;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 200px rgba(74, 223, 134, 0.5);
+    padding-bottom: 30px;
+  }
+  
+  #main-title {
+    color: #6EE7B7;
+  }
+  
+  #subtitle-div {
+    margin-left: 30px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  #subtitle-stress {
+    color: #5DEF92;
+    text-shadow: 2px 2px 4px rgba(74, 223, 134, 0.5);
+    margin-bottom: 0px;
+  }
+  
+  #cta-paragraph {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -15px; /* Adjust the margin-top value as desired to bring it closer */
+    padding-top: 0px;
+    margin-bottom: 30px
+  }
+  
+  #conditions-div {
+    margin-left: 30px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 11px;
+  }
+
+  #numberInput {
+    width: 50px;
+    padding: 1px;
+    border: 1px solid #555555;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color:  #5DEF92;
+    outline: none;
+    background:none;
+    background-color: rgba(39, 53, 73, 0.5);
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+#symbols-check  {
+  /* Hide the default checkbox appearance */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #555555;
+  border-radius: 20px;
+  background: none;
+  background-color: rgba(39, 53, 73, 0.5);
+  outline: none;
+  cursor: pointer;
+}
+
+#symbols-check:checked {
+  /* Customize the appearance when the checkbox is checked */
+  background-color: #6EE7B7;
+}
+
+#symbols-check:focus {
+  /* Customize the appearance when the checkbox receives focus */
+  border-color: #6EE7B7;
+}
+
+
+#numbers-check {
+    /* Hide the default checkbox appearance */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #555555;
+    border-radius: 20px;
+    background: none;
+    background-color: rgba(39, 53, 73, 0.5);
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #numbers-check:checked {
+    /* Customize the appearance when the checkbox is checked */
+    background-color: #6EE7B7;
+  }
+  
+  #numbers-check:focus {
+    /* Customize the appearance when the checkbox receives focus */
+    border-color: #6EE7B7;
+  }
+
+
+  #lowercase-check {
+    /* Hide the default checkbox appearance */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #555555;
+    border-radius: 20px;
+    background: none;
+    background-color: rgba(39, 53, 73, 0.5);
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #lowercase-check:checked {
+    /* Customize the appearance when the checkbox is checked */
+    background-color: #6EE7B7;
+  }
+  
+  #lowercase-check:focus {
+    /* Customize the appearance when the checkbox receives focus */
+    border-color: #6EE7B7;
+  }
+
+
+  #Uppercase-check {
+    /* Hide the default checkbox appearance */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #555555;
+    border-radius: 20px;
+    background: none;
+    background-color: rgba(39, 53, 73, 0.5);
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #Uppercase-check:checked {
+    /* Customize the appearance when the checkbox is checked */
+    background-color: #6EE7B7;
+  }
+  
+  #Uppercase-check:focus {
+    /* Customize the appearance when the checkbox receives focus */
+    border-color: #6EE7B7;
+  }
+
+
+  #Similar-check {
+    /* Hide the default checkbox appearance */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #555555;
+    border-radius: 20px;
+    background: none;
+    background-color: rgba(39, 53, 73, 0.5);
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #Similar-check:checked {
+    /* Customize the appearance when the checkbox is checked */
+    background-color: #6EE7B7;
+  }
+  
+  #Similar-check:focus {
+    /* Customize the appearance when the checkbox receives focus */
+    border-color: #6EE7B7;
+  }
+
+
+
+  #Ambiguous-check {
+    /* Hide the default checkbox appearance */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #555555;
+    border-radius: 20px;
+    background: none;
+    background-color: rgba(39, 53, 73, 0.5);
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #Ambiguous-check:checked {
+    /* Customize the appearance when the checkbox is checked */
+    background-color: #6EE7B7;
+  }
+  
+  #Ambiguous-check:focus {
+    /* Customize the appearance when the checkbox receives focus */
+    border-color: #6EE7B7;
+  }
+
+
+  #symbols-div, #numbers-div, #Lowercase-div, #Uppercase-div, #Similar-div, #Ambiguous-div {
+    display: flex;
+  }
+
+#symbols-label-div, #numbers-label-div, #Lowercase-label-div, #Uppercase-label-div, #Similar-label-div, #Ambiguous-label-div {
+    padding-top: 6px;
+    padding-left: 3px;
+}
+
+
+  #generate-passwords {
+    margin-left: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  #line-div {
+    border: none;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+  #passwords-div {
+    margin-top: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  #generate-password-btn {
+    width: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 20px;
+    border: 2px solid #6EE7B7;
+    padding: 10px 20px;
+  }
+
+
+
+
+
+
+
+
+
+  
+
+  
+  #numberInput:focus {
+    border-color: #6EE7B7;
+  }
+
+
+
+
+
+
+
+  #password1-generated-display {
+    display: flex;
+  }
+
+
+
+
+
+
+  #password1-generated {
+        display: flex;
+        width: 250px;
+        padding: 10px 20px;
+        color: #5DEF92;
+        border-radius: 30px;
+        border: 1px solid #555555;
+        margin: 20px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        background-color: rgba(39, 53, 73, 0.5);
+        padding: 10px 20px;
+        justify-content: space-between;
+        height: 40px;
+  }
+
+  #password1-generated-copy-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: none;
+    margin-left: 20px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid #6EE7B7;
+    
+  }
+
+
+
+
+
+
+
+
+
+  #password2-generated {
+    display: flex;
+    width: 250px;
+    padding: 10px 20px;
+    color: #5DEF92;
+    border-radius: 30px;
+    border: 1px solid #555555;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    background-color: rgba(39, 53, 73, 0.5);
+    padding: 10px 20px;
+    justify-content: space-between;
+    height: 40px;
+}
+
+#password2-generated-copy-btn {
+background-color: rgba(0, 0, 0, 0.5);
+margin-right: none;
+margin-left: 20px;
+color: white;
+border-radius: 30px;
+text-align: center;
+align-items: center;
+padding: 10px 20px;
+border: 2px solid #6EE7B7;
+
+}
+
+
+#password-length-div {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+#numberInput, {
+    cursor: pointer;
+    border-color: #555555;
+  }
+  
+  #numberInput:hover,
+  #numberInput:focus {
+    border-color: #6EE7B7;
+  }
+
+  #symbols-check,
+#numbers-check {
+  cursor: pointer;
+  border-color: #555555;
+}
+
+#symbols-check:hover,
+#symbols-check:focus,
+#numbers-check:hover,
+#numbers-check:focus {
+  border-color: #6EE7B7;
+}
+
+
+#generate-password-btn,
+#password1-generated-copy-btn,
+#password2-generated-copy-btn {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #6EE7B7;
+  color: white;
+}
+
+#generate-password-btn:hover,
+#generate-password-btn:focus,
+#password1-generated-copy-btn:hover,
+#password1-generated-copy-btn:focus,
+#password2-generated-copy-btn:hover,
+#password2-generated-copy-btn:focus {
+  background-color: #6EE7B7;
+}
+
